@@ -17,7 +17,7 @@ recipe 'openstack-common::sysctl', 'Configures sysctl settings'
 end
 
 depends 'apt', '~> 2.8'
-depends 'database', '~> 4.0.2'
+depends 'database', '~> 5.1.0'
 depends 'mariadb', '~> 0.3.1'
 depends 'mysql', '~> 6.0.13'
 depends 'yum', '~> 3.5.4'
